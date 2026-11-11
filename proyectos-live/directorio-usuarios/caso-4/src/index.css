@@ -96,7 +96,7 @@ ul {
   gap: 10px;
 }
 
-li {
+li, label {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -113,7 +113,12 @@ li > div {
   margin-right: auto;
   min-width: 0;
 }
-
+label > div {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  min-width: 0;
+}
 li > div > strong {
   font-weight: 600;
 }
